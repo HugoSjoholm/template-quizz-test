@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 2rem;
+}
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*NAV bar*/
+    nav a {
+        color: black;
+        border: 0.2rem solid black;
+        border-radius: 1rem;
+        padding: 0.5rem;
+        text-decoration: none;
+        margin: 1rem;
+        transition: 100ms;
+    }
+    nav a:hover {
+        background-color: darkblue;
+        border-bottom: none;
+        border-color: blue;
+        color: white;
+        border-radius: 1rem 1rem 0 0;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
